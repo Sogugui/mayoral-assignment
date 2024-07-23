@@ -1,11 +1,11 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import ProductGridItem from '../ProductGridItem';
+import ProductGridItem from '../products/ProductGridItem';
 import { Product } from 'interfaces/product';
 
 const mockProduct = {
   id: 'adults_tee_ripped',
   name: 'Test product',
-  images: ['/public/products/Polo1.jpg', '/public/products/Polo1-back.jpg'],
+  images: ['/public/products/Polo1.webp', '/public/products/Polo1-back.webp'],
   price: '100',
   discountPrice: '80',
   discountPercentage: '20',
