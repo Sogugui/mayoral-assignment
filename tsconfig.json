@@ -22,11 +22,12 @@
       "src/@types"
     ],
     "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"], 
+      "@utils/*": ["utils/*"] 
+    },
     "incremental": true
   },
-  "files": [
-    "src/@types/graphql.d.ts"
-  ],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
