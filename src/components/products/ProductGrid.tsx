@@ -1,5 +1,5 @@
 import { FC, useContext } from 'react';
-import { Product } from 'interfaces';
+import { Product } from 'interfaces/product';
 import ProductGridItem from './ProductGridItem';
 import { AppContext } from 'store/Provider';
 
